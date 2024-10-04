@@ -30,9 +30,9 @@
                 android:layout_height="126dp"
                 android:layout_centerInParent="true"
                 android:layout_gravity="top"
+                android:src="@drawable/pal"
                 android:contentDescription="@string/image_view"
-                android:gravity="center_vertical|center_horizontal|center"
-                android:src="@drawable/pal" />
+                android:gravity="center_vertical|center_horizontal|center"/>
 
             <TextView
                 android:id="@+id/msw_loading_text"

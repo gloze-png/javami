@@ -11,7 +11,7 @@ public class SplashScreen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
+//to make it faster.
         int SPLASH_TIME_OUT = 2;
         new Handler().postDelayed(new Runnable() {
 
