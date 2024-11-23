@@ -5,7 +5,7 @@ class PadiiConfig {
     /* -- CONFIG VARIABLES -- */
 
     //complete URL of your Padii website
-    static String Padii_URL ="https://padii.com.ng";
+    static String Padii_URL ="https://padii.com.ng/";
 
 
     /* -- PERMISSION VARIABLES -- */
