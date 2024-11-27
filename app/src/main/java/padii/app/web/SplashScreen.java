@@ -1,9 +1,11 @@
-package padii.app.webview;
+package padii.app.web;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import padii.app.webview.R;
 
 public class SplashScreen extends Activity {
 

@@ -1,4 +1,4 @@
-package padii.app.webview;
+package padii.app.web;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

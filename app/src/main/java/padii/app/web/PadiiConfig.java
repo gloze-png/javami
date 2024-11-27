@@ -1,4 +1,4 @@
-package padii.app.webview;
+package padii.app.web;
 
 class PadiiConfig {
 

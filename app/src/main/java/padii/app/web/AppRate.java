@@ -1,4 +1,4 @@
-package padii.app.webview;
+package padii.app.web;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -8,13 +8,13 @@ import android.view.View;
 
 import java.util.Date;
 
-import static padii.app.webview.DialogManager.create;
-import static padii.app.webview.PreferenceHelper.getInstallDate;
-import static padii.app.webview.PreferenceHelper.getIsAgreeShowDialog;
-import static padii.app.webview.PreferenceHelper.getLaunchTimes;
-import static padii.app.webview.PreferenceHelper.getRemindInterval;
-import static padii.app.webview.PreferenceHelper.isFirstLaunch;
-import static padii.app.webview.PreferenceHelper.setInstallDate;
+import static padii.app.web.DialogManager.create;
+import static padii.app.web.PreferenceHelper.getInstallDate;
+import static padii.app.web.PreferenceHelper.getIsAgreeShowDialog;
+import static padii.app.web.PreferenceHelper.getLaunchTimes;
+import static padii.app.web.PreferenceHelper.getRemindInterval;
+import static padii.app.web.PreferenceHelper.isFirstLaunch;
+import static padii.app.web.PreferenceHelper.setInstallDate;
 
 public final class AppRate {
 
@@ -23,7 +23,7 @@ public final class AppRate {
 
     private final Context context;
 
-    private final padii.app.webview.DialogOptions options = new padii.app.webview.DialogOptions();
+    private final padii.app.web.DialogOptions options = new padii.app.web.DialogOptions();
 
     private int installDate = 10;
 
@@ -110,7 +110,7 @@ public final class AppRate {
         return this;
     }
 
-    public AppRate setOnClickButtonListener(padii.app.webview.OnClickButtonListener listener) {
+    public AppRate setOnClickButtonListener(padii.app.web.OnClickButtonListener listener) {
         options.setListener(listener);
         return this;
     }
@@ -170,7 +170,7 @@ public final class AppRate {
         return this;
     }
 
-    AppRate setStoreType(padii.app.webview.StoreType appstore) {
+    AppRate setStoreType(padii.app.web.StoreType appstore) {
         options.setStoreType(appstore);
         return this;
     }

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "padii.app.webview"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "padii.app.webview"

@@ -1,4 +1,4 @@
-package padii.app.webview;
+package padii.app.web;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -57,6 +57,8 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import padii.app.webview.R;
 
 public class MainActivity extends AppCompatActivity {
 

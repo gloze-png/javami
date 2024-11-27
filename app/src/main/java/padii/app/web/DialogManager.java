@@ -1,4 +1,4 @@
-package padii.app.webview;
+package padii.app.web;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -14,14 +14,14 @@ import android.view.View;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.List;
-import static padii.app.webview.IntentHelper.createIntentForAmazonAppstore;
-import static padii.app.webview.IntentHelper.createIntentForGooglePlay;
-import static padii.app.webview.PreferenceHelper.setAgreeShowDialog;
-import static padii.app.webview.PreferenceHelper.setRemindInterval;
-import static padii.app.webview.UriHelper.getAmazonAppstore;
-import static padii.app.webview.UriHelper.getGooglePlay;
-import static padii.app.webview.UriHelper.isPackageExists;
-import static padii.app.webview.Utils.getDialogBuilder;
+import static padii.app.web.IntentHelper.createIntentForAmazonAppstore;
+import static padii.app.web.IntentHelper.createIntentForGooglePlay;
+import static padii.app.web.PreferenceHelper.setAgreeShowDialog;
+import static padii.app.web.PreferenceHelper.setRemindInterval;
+import static padii.app.web.UriHelper.getAmazonAppstore;
+import static padii.app.web.UriHelper.getGooglePlay;
+import static padii.app.web.UriHelper.isPackageExists;
+import static padii.app.web.Utils.getDialogBuilder;
 
 import padii.app.webview.R;
 

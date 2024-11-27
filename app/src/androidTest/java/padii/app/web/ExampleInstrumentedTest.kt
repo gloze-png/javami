@@ -1,4 +1,4 @@
-package padii.app.webview
+package padii.app.web
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
